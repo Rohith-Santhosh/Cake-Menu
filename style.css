@@ -116,6 +116,54 @@ html::-webkit-scrollbar-thumb {
     display: none;
 }
 
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/back.png) no-repeat ;
+    background-size: cover;
+    background-position: center center;
+}
+
+.home .homeContent {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding:4rem ;
+}
+
+.home .homeContent h2 {
+    font-size: 7rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    line-height: 7rem;
+    color: var(--black);
+    text-shadow: var(--black-shadow);
+}
+
+.home .homeContent {
+    font-size: 1.8rem;
+    line-height: 2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  /* media queries for web reposive */
 
  @media (max-width: 991px) {
@@ -123,6 +171,41 @@ html::-webkit-scrollbar-thumb {
         font-size: 55%;
     }
     .header {
-        padding: 1,3rem 3rem;
+        padding: 1.3rem 3rem;
     }
+ }
+
+ @media (min-width: 768px) {
+    #menu-bar{
+        display: inline-block;
+    }
+    .header .navbar{
+        position:absolute;
+        top:100%;
+        right:-100%;
+        width: 25rem;
+        background-color: var(--white);
+        color: var(--black);
+        height: 80vh;
+    }
+
+    .header .navbar.active {
+        right:0;
+
+    }
+
+    .header .navbar a{
+        display: block;
+        font-size: 2rem;
+        color: black;
+        margin: 1.5rem;
+
+    }
+ }
+
+ @medi (max-width: 600px) {
+    html{
+        font-size:50%;
+    }
+    
  }
