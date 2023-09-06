@@ -141,11 +141,100 @@ html::-webkit-scrollbar-thumb {
     text-shadow: var(--black-shadow);
 }
 
-.home .homeContent {
+.home .homeContent p{
     font-size: 1.8rem;
     line-height: 2rem;
+    margin-bottom: 2rem;
 
 }
+.home .homeContent .home-btn{
+    height: 3rem;
+}
+
+.home .homeContent .home-btn button{
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .7rem;
+    padding:.7rem 2.4rem;
+    cursor:pointer;
+}
+
+.home .homeContent .home-btn button:hover {
+    font-size: 2rem;
+}
+ /** Order list **/
+
+section {
+    padding: 2rem 7% ;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color : var(--black);
+}
+
+.product .row {
+    margin-bottom: 4rem;
+    display:flex;
+    align-items: center;
+}
+
+.product .product-row .box {
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    background-color: var(--white);
+    align-items: center;
+    text-align:center; 
+    padding: 2rem;
+    gap: 1.5rem;
+    border-radius: 3rem;
+}
+
+.product .product-row .img img{
+    height: 100%;
+    width: 100%;
+}
+
+.product .product-row .img img:hover{
+    transform: scale(1.1);
+}
+
+.product .product-row .content{
+    margin-bottom: 4rem;
+}
+
+.product .product-row .product-content h3{
+    font-size: 4rem;
+    color: var(--black);
+}
+
+.product .product-row .product-content p {
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    color: var(--black);
+}
+
+.product .product-row .product-content .orderNow {
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.product .product-row .product-content .orderNow button {
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color :var(--white);
+    border-radius: .7rem;
+    padding: .7rem 2rem;
+    cursor: pointer;
+}
+
+
+
+
 
 
 
@@ -173,6 +262,10 @@ html::-webkit-scrollbar-thumb {
     .header {
         padding: 1.3rem 3rem;
     }
+    .home .homeContent {
+        margin-left: 0;
+        width: 90%;
+     }
  }
 
  @media (min-width: 768px) {
@@ -202,6 +295,8 @@ html::-webkit-scrollbar-thumb {
 
     }
  }
+
+
 
  @medi (max-width: 600px) {
     html{
