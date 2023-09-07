@@ -166,7 +166,7 @@ html::-webkit-scrollbar-thumb {
  /** Order list **/
 
 section {
-    padding: 2rem 7% ;
+    padding: 2rem 2% ;
 }
 
 .heading {
@@ -177,7 +177,7 @@ section {
 }
 
 .product .row {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     display:flex;
     align-items: center;
 }
@@ -185,18 +185,18 @@ section {
 .product .product-row .box {
     display: flex;
     flex-direction: column;
-    width: 50rem;
+    width: 35rem;
     background-color: var(--white);
     align-items: center;
     text-align:center; 
-    padding: 2rem;
-    gap: 1.5rem;
-    border-radius: 3rem;
+    padding: 1rem;
+    gap: 0.5rem;
+    border-radius: 1rem;
 }
 
 .product .product-row .img img{
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
 }
 
 .product .product-row .img img:hover{
@@ -208,7 +208,7 @@ section {
 }
 
 .product .product-row .product-content h3{
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--black);
 }
 
@@ -219,16 +219,16 @@ section {
 }
 
 .product .product-row .product-content .orderNow {
-    height: 3rem;
-    margin-top: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
 }
 
 .product .product-row .product-content .orderNow button {
-    font-size: 1.8rem;
+    font-size: 1rem;
     background-color: var(--black);
     color :var(--white);
-    border-radius: .7rem;
-    padding: .7rem 2rem;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
     cursor: pointer;
 }
 
