@@ -11,9 +11,10 @@ document.querySelector('#search').onclick=() =>{
 
 var swiper = new Swiper(".product-row", {
     spaceBetween: 30,
-    centeredslides: true,
+    loop: true,
+    centeredSlides: true,
     autoplay:{
-        delay:9500,
+        delay:2500,
         disableOnInteraction:false,
     },
     pagination: {
