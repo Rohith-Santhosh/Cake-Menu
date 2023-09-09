@@ -443,7 +443,7 @@ section {
 
 .footer .box-container .box a i {
     padding-right: .5rem;
-    columns: var(--black);
+    color: var(--black); 
 }
 
 .footer .box-container .box a:hover i{
@@ -466,7 +466,18 @@ section {
     border-radius: 50%;
 }
 
+.footer .share a:hover {
+    background: var(--white);
+    color: var(--black);
+}
 
+.footer .credit {
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
+    color:var(--black);
+    text-align: center;
+}
 
 
 
