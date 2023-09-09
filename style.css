@@ -304,10 +304,11 @@ section {
 }
 
 .newsletter {
-    background-color: url(images/news.jpg) no-repeat;
+    background: url(images/back1.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    border-radius: 1rem;
 }
 
 .newsletter form {
@@ -316,8 +317,32 @@ section {
     padding: 5rem 0;
 }
 
+.newsletter form h3 {
+    font-size: 3rem;
+    color: var(--white);
+    padding-bottom: .7rem;
+}
 
+.newsletter form .box {
+    width: 100%;
+    margin: .7rem 0;
+    padding: 1rem 1.2rem;
+    color: var(--black);
+    border-radius: 1rem;
+}
 
+.newsletter form .box2 {
+    width: 30%;
+    font-size: 1.5rem;
+    padding: .5rem .5rem;
+    color: var(--white);
+    background: #f74200;
+    border-radius: 3rem;
+}
+
+.newsletter form .box2:hover {
+    font-size: 2rem;
+}
 
 
 

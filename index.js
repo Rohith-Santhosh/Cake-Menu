@@ -14,7 +14,7 @@ var swiper = new Swiper(".product-row", {
     loop: true,
     centeredSlides: true,
     autoplay:{
-        delay:2500,
+        delay:3500,
         disableOnInteraction:false,
     },
     pagination: {
@@ -40,7 +40,7 @@ var swiper = new Swiper(".blogs-row", {
   loop: true,
   centeredSlides: true,
   autoplay:{
-      delay:2500,
+      delay:4500,
       disableOnInteraction:false,
   },
   pagination: {
