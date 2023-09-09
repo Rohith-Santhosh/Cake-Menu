@@ -269,7 +269,7 @@ section {
 }
 
 .blogs .blogs-row .box .img img {
-    width: 100%;
+    width: 80%;
     padding: 5rem;
 
 }
@@ -280,7 +280,7 @@ section {
 }
 
 .blogs .blogs-row .box .content h3 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: var(--black);
     text-shadow: var(--box-shadow);
 }
