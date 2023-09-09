@@ -47,6 +47,10 @@ var swiper = new Swiper(".blogs-row", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  navigation: {
+    nextE1: ".swiper-button-next",
+    prevE1: ".swiper-button-prev",
+  },
   breakpoints: {
     0: {
       slidesPerView: 1,

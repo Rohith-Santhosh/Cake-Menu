@@ -303,6 +303,23 @@ section {
     text-shadow: var(--box-shadow);
 }
 
+.newsletter {
+    background-color: url(images/news.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.newsletter form {
+    max-width: 45rem;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+
+
+
+
 
 
 
@@ -313,6 +330,14 @@ section {
 
 .swiper-pagination-bullet {
     background-color:var(--black);
+}
+
+.swiper-button-next {
+    color: var(--black);
+}
+
+.swiper-button-prev {
+    color: var(--black);
 }
 
 
