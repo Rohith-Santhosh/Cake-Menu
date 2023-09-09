@@ -408,6 +408,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
     gap: 1.5rem;
+    padding: 2rem 1rem;
 }
 
 .footer .box-container .mainBox .content {
@@ -435,13 +436,34 @@ section {
 
 .footer .box-container .box a {
     display: block;
-    font-size: 1.4em;
+    font-size: 1.6rem;
     color: var(--black);
-    padding: 1rem o ;
+    padding: 1rem 0;
 }
 
 .footer .box-container .box a i {
-    padding-left: .5rem;
+    padding-right: .5rem;
+    columns: var(--black);
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .share {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer .share a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 2rem;
+    color: var(--white);
+    background: var(--black);
+    margin: 0.3rem;
+    border-radius: 50%;
 }
 
 
