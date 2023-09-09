@@ -331,9 +331,14 @@ section {
     border-radius: 1rem;
 }
 
+.newsletter form .box:hover {
+    color: #f74200;
+} 
+
 .newsletter form .box2 {
     width: 30%;
     font-size: 1.5rem;
+    margin-top: 1rem;
     padding: .5rem .5rem;
     color: var(--white);
     background: #f74200;
@@ -344,11 +349,54 @@ section {
     font-size: 2rem;
 }
 
+.review .review-row {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.review .review-row .box {
+    width: 50%;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    border-radius: 3rem;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+}
 
+.review .review-row .box .client-review {
+    margin-bottom: 3rem;
 
+}
 
+.review .review-row .box .client-review p {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 1.5;
 
+}
+
+.review .review-row .box .client-info {
+    display: flex;
+    align-items: center;
+}
+
+.review .review-row .box .client-info .img img {
+    padding-right: 3rem;
+}
+
+.review .review-row .box .client-info .img img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.review .review-row .box .client-info .clientDetails h3 {
+     font-size: 2.5rem;
+}
+
+.review .review-row .box .client-info .lientDetails p {
+    font-size: 1.5rem;
+}
 
 
 
